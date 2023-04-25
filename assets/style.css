@@ -1,0 +1,17 @@
+form{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgba(24, 24, 83, 0.685);
+    color: white;
+}
+section{
+    display:flex;
+}
+#title, #description{ 
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: rgba(26, 26, 94, 0.377);
+    background-image: url(../assets/pexels-suzy-hazelwood-1629236.jpg);
+}
