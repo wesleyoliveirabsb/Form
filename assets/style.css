@@ -1,17 +1,26 @@
-form{
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: rgba(24, 24, 83, 0.685);
-    color: white;
+*{
+   margin: 0px;
+   font-family: 'Inter', sans-serif;
+
 }
-section{
-    display:flex;
+
+img{
+   margin-top: 52px;
+   margin-left: 56px;
 }
-#title, #description{ 
-    color: white;
-    text-align: center;
+#titulo-menusuperior{
+   margin-left: 125px;
+   margin-top: 50px;
 }
-body{
-    background-color: rgba(26, 26, 94, 0.377);
-    background-image: url(../assets/pexels-suzy-hazelwood-1629236.jpg);
+#texto-menusuperior{
+   margin-left: 125px;
+   margin-top: 35px;
+   padding-bottom: 100px;
+}
+#menusuperior{
+   color: aliceblue;
+   background-image: url(../assets/fundo-menusuperior.svg);
+}
+#menuinformacional{
+   background-color: #EAECE5;
 }
