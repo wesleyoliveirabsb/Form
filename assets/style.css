@@ -23,4 +23,30 @@ img{
 }
 #menuinformacional{
    background-color: #EAECE5;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+.icone{
+   /*margin-top:50px;
+   margin-left:100px;
+   margin-bottom:50px;*/
+   margin:50px 0 50px 100px;
+   padding:10px;
+}
+.textoinformativo{
+   display:flex;
+   align-items: center;
+}
+#secaovideo{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+#titulovideo{
+   margin-top: 50px;
+   color:#247BA0;
+}
+#video{
+   margin:50px 25px 50px 100px;
 }
