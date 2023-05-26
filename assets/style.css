@@ -1,4 +1,5 @@
 *{
+   max-width: 1440px;
    margin: 0px;
    font-family: 'Inter', sans-serif;
 
@@ -49,4 +50,47 @@ img{
 }
 #video{
    margin:50px 25px 50px 100px;
+}
+#comentario{
+   background-color: #247BA0;
+   padding: 50px;
+
+}
+#titulocomentario{
+   color: white;
+   font-size: 32px;
+   text-align: center;
+}
+#div-cards{
+   
+   margin-top: 25px;
+   display: grid;
+   grid-auto-flow: column;
+}
+.card{
+
+}
+#setaesq{
+   display: none;
+}
+#samantha{
+   display: none;
+}
+.seta{
+   margin-top: 90%;
+   cursor: pointer;
+}
+.seta:hover{
+   transform: translateY(-7px);
+   transition: 0.6s;
+}
+#titulo-formulario{
+   text-align: center;
+   font-size: 32px;
+   margin: 25px;
+   color:#383838;
+}
+form{
+   display: flex;
+   flex-direction: column;
 }
